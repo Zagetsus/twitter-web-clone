@@ -24,7 +24,7 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <HomeIcon />
-          <span>Página Incial</span>
+          <span>Página Inicial</span>
         </MenuButton>
 
         <MenuButton>

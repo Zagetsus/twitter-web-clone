@@ -68,6 +68,10 @@ export const MenuButton = styled.button`
 
       padding-right: 15px;
     }
+
+    > svg {
+      margin-left: 15px;
+    }
   }
 
   padding: 8.25px 0;

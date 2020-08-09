@@ -7,11 +7,13 @@ interface Props {
   elements: React.ReactNode[];
 }
 
-const List: React.FC<Props> = ({ title, elements }) => {
+const List: React.FC<Props> = ({ 
+  title, elements 
+}) => {
   return (
     <Container>
       <Item>
-        <Title>{{ title }}</Title>
+        <Title>{title}</Title>
       </Item>
 
       {elements.map((element, index) => (
